@@ -1,0 +1,36 @@
+.header {
+    background: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid lightgray;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #3498db;
+}
+.logo img {
+    width: 80px;
+}
+.navigation_menu {
+    display: flex;
+    gap: 20px;
+}
+.navigation_menu a {
+    background: #3498db;
+    color: #fff;
+    border: 1px solid #3498db;
+    padding: 8px 20px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+.navigation_menu a:last-child{
+    background: none;
+    color: #000;
+    border: 1px solid #3498db;
+}
