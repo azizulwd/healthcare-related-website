@@ -1,3 +1,38 @@
+/* ================= Google fonts ================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+/* ================= Google fonts ================= */
+
+
+/* =====================================
+      Common Css Start
+===================================== */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+img{
+  width: 100%;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1150px;
+  margin: 0 auto;
+}
+/* =====================================
+      Common Css End
+===================================== */
+
+
+
 .App {
   text-align: center;
 }
