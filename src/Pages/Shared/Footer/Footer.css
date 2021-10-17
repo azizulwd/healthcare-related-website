@@ -1,0 +1,79 @@
+.footer{
+    background: #fff;
+    padding: 60px 0;
+    border-top: 1px solid lightgray;
+}
+.footer_inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+.footer_item ul li img {
+    width: 25px;
+}
+.footer_item h2 {
+    color: #3498db;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #3498db;
+}
+.emergnecy_contact li {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.appointment_time li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.subscribe input {
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 12px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+.subscribe input:focus{
+    outline: 1px solid #3498db;
+    background: #3498db0e;
+}
+.subscribe button {
+    padding: 10px 20px;
+    background: #3498db;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins';
+    border-radius: 5px;
+    cursor: pointer;
+}
+.copyright_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid lightgray;
+}
+.copyright_text p{
+    color: gray;
+    font-size: 14px;
+}
+.copyright_text .footer_links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.copyright_text .footer_links a{
+    color: gray;
+    font-weight: 500;
+}
