@@ -1,0 +1,34 @@
+.service {
+    background: #fff;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.service:hover{
+    box-shadow: 0 0 20px lightgray;
+}
+.service_img img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.service_details{
+    padding: 10px 15px 30px 15px;
+}
+.service_details h3 {
+    color: #3498db;
+    font-weight: 600;
+}
+.service_details p {
+    color: gray;
+    font-size: 14px;
+}
+.service_details button {
+    border: none;
+    background: #3498db;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins';
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
