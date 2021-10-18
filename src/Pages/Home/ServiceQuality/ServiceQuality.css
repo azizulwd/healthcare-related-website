@@ -1,0 +1,29 @@
+.service_quality{
+    margin-bottom: 100px;
+}
+.service_quality_inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.service_quality_item {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px lightgray;
+    text-align: center;
+}
+.service_quality_item h3 {
+    color: #3498db;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.service_quality_item h2 {
+    color: #323131;
+    font-weight: 600;
+}
+.service_quality_item p {
+    color: gray;
+    font-size: 14px;
+    margin-top: 10px;
+}
