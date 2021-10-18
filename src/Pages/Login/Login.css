@@ -16,18 +16,18 @@
 /* ================== Common Css ================== */
 
 
-.login{
+.form{
     width: 500px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.login_container {
+.form_container {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 5px lightgray;
 }
-.login_logo {
+.form_logo {
     text-align: center;
     background: #3498db;
     padding-top: 30px;
@@ -35,16 +35,19 @@
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-.login_logo img {
+.form_logo img {
     width: 130px;
+    margin-bottom: 10px;
 }
-.login_logo h2 {
+.form_logo h1 {
     color: #fff;
+    font-weight: 500;
+    font-size: 40px;
 }
-.login_form{
+.form_input_group{
     padding: 30px 20px;
 }
-.login_form input {
+.form_input_group input {
     width: 100%;
     padding: 12px;
     font-size: 16px;
@@ -54,10 +57,10 @@
     border: 1px solid #3498db;
     border-radius: 5px;
 }
-.login_form input:focus{
+.form_input_group input:focus{
     background: #3498db21;
 }
-.login_form a{
+.form_input_group a{
     display: block;
     text-align: center;
     color: #3498db;

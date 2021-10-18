@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
-        <div className="login">
-            <div className="login_container">
-                <div className="login_logo">
+        <div className="form">
+            <div className="form_container">
+                <div className="form_logo">
                     <img src={loginLogo} alt="" />
-                    <h2>HealthCare</h2>
+                    <h1>Login</h1>
                 </div>
-                <div className="login_form">
+                <div className="form_input_group">
                     <input type="email" placeholder="Email" />
                     <input type="password" placeholder="Password" />
                     <button className="btn_regular">Login</button>
