@@ -1,0 +1,79 @@
+
+/* ================== Common Css ================== */
+.btn_regular {
+    background: #3498db;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #fff;
+    font-weight: 500;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+/* ================== Common Css ================== */
+
+
+.login{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.login_container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px lightgray;
+}
+.login_logo {
+    text-align: center;
+    background: #3498db;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.login_logo img {
+    width: 130px;
+}
+.login_logo h2 {
+    color: #fff;
+}
+.login_form{
+    padding: 30px 20px;
+}
+.login_form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+.login_form input:focus{
+    background: #3498db21;
+}
+.login_form a{
+    display: block;
+    text-align: center;
+    color: #3498db;
+}
+fieldset {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 2px dashed #3498db;
+    font-weight: 500;
+    color: #3498db;
+}
+fieldset .google_btn {
+    border: 1px solid #3498db;
+    background: none;
+    color: #3498db;
+}
