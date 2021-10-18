@@ -15,7 +15,7 @@ const Banner = () => {
             <div className="banner_inner">
                 <div>
                     <h1>THE BEST DOCTOR</h1>
-                    <p>The good news: a healthy lifestyle can help you feel better. Even better, you don’t have to overhaul your entire life overnight. It’s pretty easy to make a couple of small changes that can steer you in the direction of improved well-being. And once you make one change, that success can motivate you to continue to make more positive shifts.</p>
+                    <p>The good news: a healthy lifestyle can help you feel better. Even better, you don’t have to overhaul your entire life overnight. It’s pretty easy to make a couple of small changes that can steer you in the direction of improved well-being.</p>
                 </div>
             </div>
         </div>

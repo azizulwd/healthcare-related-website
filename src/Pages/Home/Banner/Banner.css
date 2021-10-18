@@ -3,9 +3,23 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-bottom: 100px;
 }
 .banner_inner {
-    width: 700px;
+    width: 800px;
     margin: 0 auto;
     text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_inner div h1 {
+    font-size: 60px;
+    color: #fff;
+}
+.banner_inner div p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
 }
