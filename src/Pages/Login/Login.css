@@ -64,6 +64,7 @@
     display: block;
     text-align: center;
     color: #3498db;
+    font-weight: 500;
 }
 fieldset {
     text-align: center;
