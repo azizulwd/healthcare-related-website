@@ -60,6 +60,9 @@
 .form_input_group input:focus{
     background: #3498db21;
 }
+.form_input_group #checkbox {
+    width: 20px;
+}
 .form_input_group a{
     display: block;
     text-align: center;
@@ -80,4 +83,9 @@ fieldset .google_btn {
     border: 1px solid #3498db;
     background: none;
     color: #3498db;
+}
+.error_message{
+    font-weight: 500;
+    color: red;
+    margin-bottom: 10px;
 }
