@@ -23,3 +23,18 @@
     color: #fff;
     font-weight: 500;
 }
+
+
+/* =================== Media Query =================== */
+
+@media screen and (max-width: 688px){
+    .banner_inner{
+        width: 100%;
+    }
+    .banner_inner div h1 {
+        font-size: 2.5rem;
+    }
+    .banner_inner div p{
+        font-size: 1rem;
+    }
+}
