@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useFirebase from '../../hooks/useFirebase';
 import loginLogo from '../../images/logo.png';
 
 const Register = () => {
+    const {signInWithGoogle} = useFirebase();
+
     return (
         <div className="form">
             <div className="form_container">
@@ -16,7 +19,7 @@ const Register = () => {
                     <button className="btn_regular">Register</button>
                     <fieldset>
                         <legend>Or</legend>
-                        <button className="btn_regular google_btn">Register with Google</button>
+                        <button onClick={signInWithGoogle} className="btn_regular google_btn">Register with Google</button>
                     </fieldset>
                     <Link to="/login">Already have an account?</Link>
                 </div>
