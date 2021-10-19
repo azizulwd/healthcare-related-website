@@ -1,0 +1,26 @@
+.notFoundPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.notFoundPage a {
+    color: #fff;
+    background: #3498db;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.returnHome_btn {
+    text-align: center;
+}
+.notFoundtext {
+    font-size: 200px;
+    font-weight: bold;
+    color: #3498db;
+}
