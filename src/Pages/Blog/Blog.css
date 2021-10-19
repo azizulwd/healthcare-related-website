@@ -1,0 +1,40 @@
+.blog{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blog_inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.blog_item{
+    background: #fff;
+    box-shadow: 0 0 10px lightgray;
+    padding-bottom: 20px;
+}
+.blog_item img{
+    height: 250px;
+}
+.blog_item h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.blog_item p {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: gray;
+}
+.blog_item button {
+    border: none;
+    background: #3498db;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins';
+    padding: 10px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

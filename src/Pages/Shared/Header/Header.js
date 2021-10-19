@@ -19,7 +19,7 @@ const Header = () => {
                 <div className="navigation_menu">
                     <Link to="/home">Home</Link>
                     <Link to="/appointment">Appointment</Link>
-                    <Link to="/shop">Shop</Link>
+                    <Link to="/blog">Blog</Link>
                     <span>{user?.displayName}</span>
                     {user.email ? <button className="logout_btn" onClick={logOut}>Logout</button> : <Link to="/login">Login</Link>}
                 </div>
