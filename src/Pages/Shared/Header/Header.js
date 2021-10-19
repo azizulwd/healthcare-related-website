@@ -2,8 +2,11 @@ import React from 'react';
 import './Header.css';
 import logo from '../../../images/logo.png';
 import { Link } from 'react-router-dom';
+import useFirebase from '../../../hooks/useFirebase';
 
 const Header = () => {
+    const {user} = useFirebase();
+
     return (
         <div className="header">
             <div className="container header_inner">
@@ -18,6 +21,7 @@ const Header = () => {
                     <Link to="/aboutus">About Us</Link>
                     <Link to="/shop">Shop</Link>
                     <Link to="/login">Login</Link>
+                    {user?.email && <button>Logout</button>}
                 </div>
             </div>
         </div>
