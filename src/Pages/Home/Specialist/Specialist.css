@@ -34,3 +34,20 @@
     color: gray;
     font-weight: 600;
 }
+
+
+/* ================== Media query ================== */
+@media screen and (max-width: 688px){
+    .specialist_title{
+        width: 100%;
+    }
+    .specialist_title h1{
+        font-size: 2rem;
+    }
+    .specialist_title p{
+        font-size: 1rem;
+    }
+    .doctor_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
