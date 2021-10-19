@@ -60,4 +60,10 @@
     .appointment_inner{
         width: 100%;
     }
+    .appointment_title h1 {
+        font-size: 2rem;
+    }
+    .patien_address .patien_address_title h3{
+        font-size: 1rem;
+    }
 }
