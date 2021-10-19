@@ -20,3 +20,20 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+
+
+/* ================== Media query ================== */
+@media screen and (max-width: 688px){
+    .services_title{
+        width: 100%;
+    }
+    .services_title h1{
+        font-size: 2rem;
+    }
+    .services_title p{
+        font-size: 1rem;
+    }
+    .services_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
