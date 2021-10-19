@@ -46,3 +46,23 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* =================== Media Query =================== */
+
+@media screen and (max-width: 688px){
+    .header_inner{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .logo{
+        margin-bottom: 30px;
+    }
+    .navigation_menu{
+        flex-direction: column;
+    }
+    .navigation_menu a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+  }
