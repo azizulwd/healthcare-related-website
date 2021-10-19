@@ -4,7 +4,7 @@ import loginLogo from '../../images/logo.png';
 import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
-    const {user, signInWithGoogle, handleRegistration, toggleLogin, isLogin, error, handleEmail, handlePassword, resetPasswordEmail, logOut} = useAuth();
+    const {user, signInWithGoogle, handleRegistration, toggleLogin, isLogin, handleEmail, handlePassword, resetPasswordEmail} = useAuth();
 
     return (
         <div>
@@ -16,9 +16,6 @@ const Login = () => {
                         <h1>{isLogin ? 'Login' : 'Register'}</h1>
                     </div>
                     <form onSubmit={handleRegistration} className="form_input_group">
-                        <p className="error_message">
-                            <span>{error}</span>
-                        </p>
                         <input onBlur={handleEmail} type="text" placeholder="Email" />
                         <input onBlur={handlePassword} type="password" placeholder="Password" />
                         <input onChange={toggleLogin} type="checkbox" id="checkbox" />
@@ -41,9 +38,6 @@ const Login = () => {
                         <h1>{isLogin ? 'Login' : 'Register'}</h1>
                     </div>
                     <form onSubmit={handleRegistration} className="form_input_group">
-                        <p className="error_message">
-                            <span>{error}</span>
-                        </p>
                         <input onBlur={handleEmail} type="text" placeholder="Email" />
                         <input onBlur={handlePassword} type="password" placeholder="Password" />
                         <input onChange={toggleLogin} type="checkbox" id="checkbox" />

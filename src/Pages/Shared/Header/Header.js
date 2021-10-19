@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
 const Header = () => {
-    const {user, logOut} = useAuth();
+    const {user, logOut, isLogin} = useAuth();
 
     return (
         <div className="header">
@@ -20,9 +20,8 @@ const Header = () => {
                     <Link to="/home">Home</Link>
                     <Link to="/aboutus">About Us</Link>
                     <Link to="/shop">Shop</Link>
-                    <Link to="/login">Login</Link>
                     <span>{user?.displayName}</span>
-                    {user?.email && <button onClick={logOut}>Logout</button>}
+                    {isLogin ? <button onClick={logOut}>Logout</button> : <Link to="/login">Login</Link>}
                 </div>
             </div>
         </div>
