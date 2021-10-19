@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import useFirebase from '../../../hooks/useFirebase';
 
 const Header = () => {
-    const {user, photoURL, logOut} = useFirebase();
+    const {user, logOut} = useFirebase();
 
     return (
         <div className="header">
