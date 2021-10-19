@@ -36,3 +36,13 @@
     border: 1px solid #3498db;
     font-weight: 600;
 }
+.navigation_menu .logout_btn {
+    padding: 8px 20px;
+    background: red;
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

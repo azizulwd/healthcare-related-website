@@ -21,7 +21,7 @@ const Header = () => {
                     <Link to="/aboutus">About Us</Link>
                     <Link to="/shop">Shop</Link>
                     <span>{user?.displayName}</span>
-                    {isLogin ? <button onClick={logOut}>Logout</button> : <Link to="/login">Login</Link>}
+                    {isLogin ? <button className="logout_btn" onClick={logOut}>Logout</button> : <Link to="/login">Login</Link>}
                 </div>
             </div>
         </div>
