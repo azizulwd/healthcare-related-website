@@ -1,0 +1,44 @@
+ [
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/Mht9bLh/primary-health-care.jpg",
+    "name": "PRIMARY HEALTH CARE",
+    "shortDesc": "Primary health care, or PHC, refers to...",
+    "description": "Primary health care, or PHC, refers to \"essential health care\" that is based on scientifically sound and socially acceptable methods and technology. This makes universal health care accessible to all individuals and families in a community."
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/9vkzGVM/gynecologist.jpg",
+    "name": "GYNEOLOGICAL CLINIC",
+    "shortDesc": "Gynaecology or gynecology is the medical practice...",
+    "description": "Gynaecology or gynecology is the medical practice dealing with the health of the female reproductive system. Almost all modern gynaecologists are also obstetricians. In many areas, the specialities of gynaecology and obstetrics overlap. The term means \"the science of women\"."
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/qMhNq40/precise-diagonisis.jpg",
+    "name": "PRECISE DIAGNOSIS",
+    "shortDesc": "Precision diagnosis is the accurate...",
+    "description": "Precision diagnosis is the accurate and timely explanation of each patients health problem and further requires communication of that explanation to patients and surrogate decision-makers. Both accuracy and timeliness are essential to critical care, yet computed decision support systems (CDSS) are scarce."
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/Zf7CSzc/cardiology.jpg",
+    "name": "CARDIAC CLINIC",
+    "shortDesc": "A heart attack occurs when a blocked...",
+    "description": "A heart attack occurs when a blocked artery prevents oxygen-rich blood from reaching a section of the heart. If the blocked artery is not reopened quickly, the part of the heart normally nourished by that artery begins to die. The longer a person goes without treatment, the greater the damage."
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/C2b1TC6/dental.jpg",
+    "name": "DENTAL SURGERY",
+    "shortDesc": "Department of Dental & Maxillofacial...",
+    "description": "Department of Dental & Maxillofacial Surgery of Evercare Hospital Dhaka offers full scope of the dental specialty, including general dentistry and specialized services in oral & maxillofacial surgery, orthodontics and restorative dentistry (endodontics and prosthodontics)."
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/vhHjLLQ/rehab.jpg",
+    "name": "REHABILITATION CENTER",
+    "shortDesc": "Physical medicine and rehabilitation, also known...",
+    "description": "Physical medicine and rehabilitation, also known as physiatry, is a branch of medicine that aims to enhance and restore functional ability and quality of life to people with physical impairments or disabilities. Physical medicine and rehabilitation, also known as physiatry, is a branch of medicine that aims to enhance and restore functional ability and quality of life to people with physical impairments or disabilities."
+  }
+]

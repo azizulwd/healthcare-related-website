@@ -7,7 +7,7 @@ const Services = () => {
 
 
     useEffect(()=>{
-        fetch('https://azizulwd.github.io/health-services/health-services.json')
+        fetch('/health-services2.json')
         .then(res => res.json())
         .then(data => setServices(data));
     }, []);
