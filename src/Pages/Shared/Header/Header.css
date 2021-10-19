@@ -20,6 +20,7 @@
 .navigation_menu {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 .navigation_menu a {
     background: #3498db;

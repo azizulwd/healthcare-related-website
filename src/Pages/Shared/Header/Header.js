@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import useFirebase from '../../../hooks/useFirebase';
 
 const Header = () => {
-    const {user} = useFirebase();
+    const {user, photoURL, logOut} = useFirebase();
 
     return (
         <div className="header">
@@ -21,7 +21,8 @@ const Header = () => {
                     <Link to="/aboutus">About Us</Link>
                     <Link to="/shop">Shop</Link>
                     <Link to="/login">Login</Link>
-                    {user?.email && <button>Logout</button>}
+                    <span>{user?.displayName}</span>
+                    {user?.email && <button onClick={logOut}>Logout</button>}
                 </div>
             </div>
         </div>
