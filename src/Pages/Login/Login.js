@@ -2,10 +2,10 @@ import React from 'react';
 import './Login.css';
 import loginLogo from '../../images/logo.png';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
-    const {signInWithGoogle} = useFirebase();
+    const {signInWithGoogle} = useAuth();
 
     return (
         <div className="form">
