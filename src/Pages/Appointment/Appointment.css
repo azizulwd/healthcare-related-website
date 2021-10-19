@@ -49,3 +49,15 @@
     border: 1px solid #3498db;
     border-radius: 5px;
 }
+
+
+/* ============ Media query ============ */
+
+@media screen and (max-width: 688px){
+    .appointment{
+        padding: 0px 20px;
+    }
+    .appointment_inner{
+        width: 100%;
+    }
+}
