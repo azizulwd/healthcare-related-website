@@ -24,3 +24,10 @@
     font-weight: bold;
     color: #3498db;
 }
+
+/* Media Query */
+@media screen and (max-width: 688px){
+    .notFoundPage{
+        flex-direction: column;
+    }
+}
