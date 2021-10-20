@@ -1,0 +1,91 @@
+[debug] [2021-10-19T17:22:38.824Z] ----------------------------------------------------------------------
+[debug] [2021-10-19T17:22:38.827Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-10-19T17:22:38.827Z] CLI Version:   9.20.0
+[debug] [2021-10-19T17:22:38.827Z] Platform:      win32
+[debug] [2021-10-19T17:22:38.828Z] Node Version:  v14.17.1
+[debug] [2021-10-19T17:22:38.916Z] Time:          Tue Oct 19 2021 23:22:38 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-19T17:22:38.916Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-19T17:22:39.013Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-19T17:22:39.013Z] > authorizing via signed-in user (azizulislamgd@gmail.com)
+[debug] [2021-10-19T17:22:39.013Z] [iam] checking project responsive-healthcare for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-10-19T17:22:39.016Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/responsive-healthcare:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-10-19T17:22:42.613Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 17:22:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1182","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:22:42.616Z] > refreshing access token with scopes: []
+[debug] [2021-10-19T17:22:42.616Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T17:22:42.947Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 19 Oct 2021 17:22:44 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:22:42.986Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/responsive-healthcare [none]
+[debug] [2021-10-19T17:22:44.425Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/responsive-healthcare 200
+[debug] [2021-10-19T17:22:44.425Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/responsive-healthcare {"projectId":"responsive-healthcare","projectNumber":"413514122141","displayName":"responsive-healthcare","name":"projects/responsive-healthcare","resources":{"hostingSite":"responsive-healthcare"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'responsive-healthcare'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-10-19T17:22:44.432Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-19T17:22:44.432Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T17:22:44.685Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Tue, 19 Oct 2021 17:22:46 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:22:44.771Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/responsive-healthcare/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-10-19T17:22:46.701Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 17:22:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[responsive-healthcare]: beginning deploy... 
+[info] i  hosting[responsive-healthcare]: found 34 files in build 
+[debug] [2021-10-19T17:22:47.043Z] > refreshing access token with scopes: []
+[debug] [2021-10-19T17:22:47.044Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T17:22:47.046Z] [hosting] hash cache [YnVpbGQ] stored for 34 files
+[debug] [2021-10-19T17:22:47.046Z] [hosting][hash queue][FINAL] {"max":246,"min":8,"avg":48.1764705882353,"active":0,"complete":34,"success":34,"errored":0,"retried":0,"total":34,"elapsed":272}
+[debug] [2021-10-19T17:22:47.549Z] <<< HTTP RESPONSE 200 {"date":"Tue, 19 Oct 2021 17:22:48 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:22:47.638Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/responsive-healthcare/versions/2003521d42f197e0:populateFiles [none]
+[debug] [2021-10-19T17:22:47.638Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/responsive-healthcare/versions/2003521d42f197e0:populateFiles {"files":{"/favicon.ico":"e1d5a6d8d939cdb610604471889e166b31a34e670431621d13be406c53e56879","/health-services.json":"cb183b39f80430bf97c4220d4b526b18951270fe4689124733d262b12d019de1","/health-services2.json":"cb183b39f80430bf97c4220d4b526b18951270fe4689124733d262b12d019de1","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/asset-manifest.json":"faabb5e13cc1a9bac80b0f50ea5c042a7d272ad3f3aee591317035372c2dab1f","/index.html":"bc2425ae95f7368f4cc1fffde75e90598434a6e84c97aae34ef22a926bbdc430","/static/css/main.01ad6919.chunk.css":"77af3d2e4e0523eb14d9721813481b7141ce4c869068ab6feb00ed4182344c75","/static/js/2.ccaa2b06.chunk.js.LICENSE.txt":"aea587baccbeb03e4b14386f5248ba83b32bc7d6da081537025be9ebb4ad69b5","/static/js/3.7072d982.chunk.js":"936d0cbe28a0c80d8241a6b3d8ab0d158cf992841ddab06fefcc4efb8cf42dad","/static/css/main.01ad6919.chunk.css.map":"618607222822e42f85ac099e6513461e034d6f365839a6ae4a4060d8c7f4d1df","/static/js/3.7072d982.chunk.js.map":"2d5d83e2abf2018058acc17740ca1c54b4aa8caf3296a72bc18607e8dcce5abe","/static/js/runtime-main.c9880921.js":"f85354bafeb4c08115f8f29cf43dd6b7f69dcd13c1914c5d55bc13d3e8367def","/static/js/main.45d2c89d.chunk.js":"ce3f3274edfa572a9b08b697f9fc453c66b6c2c23f785c34160fc15e7c4cf000","/static/js/runtime-main.c9880921.js.map":"78703172ce1ce683089d5e9d4924a787d7cd12bdd77e9676f945f679f97d60e0","/static/media/address.1d18ee6e.png":"baea58150ee74163526a12445fd8ce93bf3ebff0ebaf74a8b6bdd06af8f61314","/static/js/main.45d2c89d.chunk.js.map":"97497fba352e9161ca550e9ec05988c3c8235ddc589088eb191a7f0a38a1d91a","/static/media/blog-1.6207624f.jpg":"895599b6bfc1bbc8cadd4db85d11fc695bbebd8c135d982427f08043f597339e","/static/media/blog-3.e88eb644.jpg":"f1137bc8008c17eb9ad2a1140df07c9c91cbe8668dc2925f84bbd11c0e789924","/static/media/blog-5.bc6f9612.jpg":"cac4caea64adba2be4b2b0cdb34908739fc764faea14a2fc31ac85fe52418626","/static/media/doctor-2.38216cc8.jpg":"cd3a411e98b0d3a25c16fd1b678d561456dfe74fc219e50b5d176b45ba97c48b","/static/media/doctor-1.2847c5df.jpg":"060f52451c6bd2decf62d4a6639192b5f8e053e4712953c5576c6efc1146a28a","/static/media/clock.cec2d67f.png":"776931aa8696d55a4875b45e2ae49ab84066ddd8c595f617c522a6908f671865","/static/media/doctor-3.537c755d.jpg":"8a50b40b14d63faf9dca8a44e5cfdd7c6075b9520a9dd9a385878c1313c6af05","/static/media/doctor-4.420091c7.jpg":"ad1f46fccdb9f85975ac5a39caa8785bb8a693e524f8056cb7ee2f6d8b66a556","/static/media/blog-6.08f6eabd.jpg":"2906016b2ccad2f2ea016bd741a17fe3b8d02c51c332a82ccf4ec1911ce2fcf9","/static/media/blog-2.a4d857a6.jpg":"8a8003d9fcacf8526aff78c643e4120ed297cf15316aa295f100dc60c43e203b","/static/js/2.ccaa2b06.chunk.js":"f5dd6ce8939c35529aa09839050a67f3642ae8b692886858c189be5aedc0786a","/static/media/logo.4717e5fa.png":"98f864f1a928600ca31874ae0652ba59c533f986096a84c1fa8affdf83c15dfd","/static/media/blog-4.4b1ea5dd.jpg":"ca1cfd8ceeeb4085d5fa02a8665206a870e2988df96614e00bdbbace549c5d14","/static/media/banner.87f69144.jpg":"4a90ba88dd9e012752f32d9374481a14232d6ed35bb2d8b9ad24297e4a1446d3","/static/js/2.ccaa2b06.chunk.js.map":"074dcf41360657af221dab9875c1a00a16c8fb34e498caa081e8a943655859ef"}}
+[debug] [2021-10-19T17:22:49.413Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/responsive-healthcare/versions/2003521d42f197e0:populateFiles 200
+[debug] [2021-10-19T17:22:49.413Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/responsive-healthcare/versions/2003521d42f197e0:populateFiles {"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/responsive-healthcare/versions/2003521d42f197e0/files"}
+[debug] [2021-10-19T17:22:49.413Z] [hosting][populate queue][FINAL] {"max":2370,"min":2370,"avg":2370,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2370}
+[debug] [2021-10-19T17:22:49.414Z] [hosting] uploads queued: 0
+[debug] [2021-10-19T17:22:49.414Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1634664169414}
+[info] +  hosting[responsive-healthcare]: file upload complete 
+[debug] [2021-10-19T17:22:49.415Z] [hosting] deploy completed after 2712ms
+[debug] [2021-10-19T17:22:49.463Z] [
+  {
+    "config": {
+      "public": "build",
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "responsive-healthcare"
+    },
+    "site": "responsive-healthcare",
+    "version": "sites/responsive-healthcare/versions/2003521d42f197e0"
+  }
+]
+[info] i  hosting[responsive-healthcare]: finalizing version... 
+[debug] [2021-10-19T17:22:49.465Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-19T17:22:49.465Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-19T17:22:49.713Z] <<< HTTP RESPONSE 200 {"date":"Tue, 19 Oct 2021 17:22:51 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:22:49.777Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/responsive-healthcare/versions/2003521d42f197e0?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2021-10-19T17:22:51.397Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 17:22:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:22:51.397Z] [hosting] finalized version for responsive-healthcare: {"name":"sites/responsive-healthcare/versions/2003521d42f197e0","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-10-19T17:22:47.869094Z","createUser":{"email":"azizulislamgd@gmail.com"},"finalizeTime":"2021-10-19T17:22:52.764776Z","finalizeUser":{"email":"azizulislamgd@gmail.com"}}
+[info] +  hosting[responsive-healthcare]: version finalized 
+[info] i  hosting[responsive-healthcare]: releasing new version... 
+[debug] [2021-10-19T17:22:51.399Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/responsive-healthcare/releases?version_name=sites/responsive-healthcare/versions/2003521d42f197e0  
+ {"message":null}
+[debug] [2021-10-19T17:22:53.377Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 19 Oct 2021 17:22:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-19T17:22:53.378Z] [hosting] release: {"name":"sites/responsive-healthcare/releases/1634664174213154","version":{"name":"sites/responsive-healthcare/versions/2003521d42f197e0","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-10-19T17:22:47.869094Z","createUser":{"email":"azizulislamgd@gmail.com"},"finalizeTime":"2021-10-19T17:22:52.764776Z","finalizeUser":{"email":"azizulislamgd@gmail.com"}},"type":"DEPLOY","releaseTime":"2021-10-19T17:22:54.213154306Z","releaseUser":{"email":"azizulislamgd@gmail.com"}}
+[info] +  hosting[responsive-healthcare]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/responsive-healthcare/overview
+[info] Hosting URL: https://responsive-healthcare.web.app
