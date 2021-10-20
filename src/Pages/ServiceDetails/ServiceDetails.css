@@ -1,0 +1,40 @@
+.single_service_details{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.single_service_inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5%;
+    grid-gap: 5%;
+    gap: 5%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px lightgray;
+    align-items: center;
+}
+.single_service_img img{
+    border-radius: 20px;
+}
+.single_service_details h1 {
+    color: #323131;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.single_service_details p {
+    font-size: 16px;
+    text-align: justify;
+    color: gray;
+}
+.single_service_details button {
+    border: none;
+    background: #3498db;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins';
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
